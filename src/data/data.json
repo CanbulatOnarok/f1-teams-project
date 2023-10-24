@@ -1,0 +1,94 @@
+{
+    "f1": [
+        {
+            "id": 1,
+            "teamName": "Red Bull",
+            "drivers": "Max Verstappen - Sergio Perez",
+            "base": "Milton Keynes, United Kingdom",
+            "teamChief": "Christian Horner",
+            "chassis": "RB19",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg"
+        },
+        {
+            "id": 2,
+            "teamName": "Mercedes",
+            "drivers": "Lewis Hamilton - George Russel",
+            "base": "Brackley, United Kingdom",
+            "teamChief": "Toto Wolff",
+            "chassis": "W14",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg"
+        },
+        {
+            "id": 3,
+            "teamName": "Scuderia Ferrari",
+            "drivers": "Charles Leclerc - Carlos Sainz  ",
+            "base": "Maranello, Italy",
+            "teamChief": "Frédéric Vasseur",
+            "chassis": "SF-23",
+            "logo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg"
+        },
+        {
+            "id": 4,
+            "teamName": "McLaren",
+            "drivers": "Lando Norris  - Oscar Piastri ",
+            "base": "Woking, United Kingdom",
+            "teamChief": "Andrea Stella",
+            "chassis": "MCL60",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren.jpg"
+        },
+        {
+            "id": 5,
+            "teamName": "Aston Martin",
+            "drivers": "Fernando Alonso  - Lance Stroll ",
+            "base": "Silverstone, United Kingdom",
+            "teamChief": "Mike Krack",
+            "chassis": "AMR23",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin.jpg"
+        },
+        {
+            "id": 6,
+            "teamName": "Alpine",
+            "drivers": "Estaban Ocon - Pierre Gasly  ",
+            "base": "Enstone, United Kingdom",
+            "teamChief": "Bruno Famin",
+            "chassis": "A523",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine.jpg"
+        },
+        {
+            "id": 7,
+            "teamName": "Williams",
+            "drivers": "Alex Albon  - Logon Sergeant ",
+            "base": "Grove, United Kingdom",
+            "teamChief": "James Vowles",
+            "chassis": "FW45",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/williams%20blue.jpg"
+        },
+        {
+            "id": 8,
+            "teamName": "Alfa Romeo",
+            "drivers": "Valtteri Bottas - Zhou Guanyu  ",
+            "base": "Hinwil, Switzerland",
+            "teamChief": "Alessandro Alunni Bravi",
+            "chassis": "C43",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alfa%20romeo.jpg"
+        },
+        {
+            "id": 9,
+            "teamName": "Haas",
+            "drivers": "Kevin Magnussen - Nico Hulkenberg ",
+            "base": "Kannapolis, United States",
+            "teamChief": "Guenther Steiner",
+            "chassis": "VF-23",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/haas.jpg"
+        },
+        {
+            "id": 10,
+            "teamName": "Alpha Tauri",
+            "drivers": "Yuki Tsunoda - Daniel Ricciardo ",
+            "base": "Faenza, Italy",
+            "teamChief": "Franz Tost",
+            "chassis": "AT04",
+            "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alphatauri.jpg"
+        }
+    ]
+}
