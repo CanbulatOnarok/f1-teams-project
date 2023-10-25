@@ -1,0 +1,21 @@
+.team-detail {
+  background: #ffffff;
+  width: max-content;
+  border-radius: 30px;
+  img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 700px;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

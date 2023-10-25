@@ -1,8 +1,11 @@
 import React from 'react'
-
-const TeamList = () => {
+import "../style/TeamList.scss"
+import Team from './Team'
+const TeamList = ({f1}) => {
   return (
-    <div>TeamList</div>
+  <div className='team-list'>
+<Team f1={f1}/>
+  </div>
   )
 }
 
