@@ -1,5 +1,13 @@
-nav{
+nav {
     height: 150px;
     background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+ul{
+    display: flex;
+    list-style: none;
+}
 
 }
