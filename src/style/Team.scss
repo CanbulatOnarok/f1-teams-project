@@ -2,6 +2,10 @@
   background: #ffffff;
   width: max-content;
   border-radius: 30px;
+  box-shadow: 8px 17px 27px 12px rgba(25,13,13,0.69);
+  -webkit-box-shadow: 8px 17px 27px 12px rgba(25,13,13,0.69);
+  -moz-box-shadow: 8px 17px 27px 12px rgba(25,13,13,0.69);
+
   img {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
