@@ -12,12 +12,12 @@ const Form = ({cretaTeam}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     cretaTeam({
-      teamName: teamName,
-      drivers: drivers,
-      base: base,
-      teamChief: teamChief,
-      chassis: chassis,
-      logo: logo
+      teamName:teamName,
+      drivers:drivers,
+      base:base,
+      teamChief:teamChief,
+      chassis:chassis,
+      logo:logo
     })
     setTeamName("");
     setDrivers("");
@@ -25,6 +25,8 @@ const Form = ({cretaTeam}) => {
     setTeamChief("");
     setChassis("");
     setLogo("");
+
+
   }
 
   return (
@@ -39,8 +41,8 @@ const Form = ({cretaTeam}) => {
       <input type="text" placeholder='Team Chief:' onChange={e => setTeamChief(e.target.value)} />
       <input type="text" placeholder='Chassis:' onChange={e => setChassis(e.target.value)} />
       <input type="text" placeholder='Logo(url):' onChange={e => setLogo(e.target.value)} />
-      </form>
       <input type="submit" value="Create Team" />
+      </form>
 
     </div>
   )

@@ -18,12 +18,14 @@ function App() {
     const response =await axios.get("http://localhost:3005/f1");
     const f1 =await response.data;
     setF1(f1);
-    console.log(f1);
   }
 
 // Yeni data ekleme
-const cretaTeam = (newTeam) =>{
-  setF1(prev=>[...prev,newTeam]);
+const cretaTeam =async (newTeam) =>{
+  const response =await axios.post("http://localhost:3005/f1",newTeam);
+  if(response.status ===201){
+    setF1(prev=>[...prev,newTeam])
+  }
 }
 
 
