@@ -1,6 +1,7 @@
 import React from 'react'
 import "../style/Form.scss"
 import { useState } from 'react'
+
 const Form = ({cretaTeam}) => {
   const [teamName, setTeamName] = useState("");
   const [drivers, setDrivers] = useState("");
@@ -10,7 +11,7 @@ const Form = ({cretaTeam}) => {
   const [logo, setLogo] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    
     cretaTeam({
       teamName:teamName,
       drivers:drivers,
